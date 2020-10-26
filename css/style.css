@@ -6,21 +6,23 @@ body {
     margin: 0;
 }
 /*Контейнеры*/
+
 .header-top {
     background:url("../img/header_photo.jpg") no-repeat center/cover;
-    /*padding: 27px 45px 27px 54px;*/
+
     height: 100vh;
 }
 .container {
-    max-width: 1490px;
-    padding: 27px 45px 27px 54px;
+    /*max-width: 1490px;*/
+    margin: 0 45px 27px 45px;
+    padding-top: 27px;
     /*margin: 0 auto;*/
 }
 
 .nav {
     display: flex;
     justify-content: space-between;
-    width: 100%;
+
 
 }
 
@@ -30,34 +32,29 @@ body {
     margin-top: -27px;
     width: 484px;
     height: 136px;
-    /*align-items: start;*/
+
 
 }
 
-/*Иконки*/
+/*Иконки и текст*/
 .nav-text {
     display: flex;
     flex-wrap: wrap;
-    margin: 0;
-    align-items: end;
-    /*width: 688px;*/
-    /*min-height: 114px;*/
-    /*margin-left: auto;*/
-
-
-
-
+    width: 687px;
+    margin-left: auto;
 
 }
 .info {
     display: flex;
-    width: 50%;
     margin-bottom: 40px;
+}
 
+.info__mr {
+    margin-right: 55px;
 }
 
 .text-info {
-
+    margin: 0;
 
 }
 .icon {
@@ -69,4 +66,20 @@ body {
 .icon__map {
     margin-right: 20px;
     margin-left: 10px;
+}
+
+.first_line {
+    font-family: 'Open Sans', Arial sans-serif;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+}
+.second-line {
+    font-family:'Open Sans', Arial sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
 }
