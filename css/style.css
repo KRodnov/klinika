@@ -54,7 +54,7 @@ body {
 }
 .info {
     display: inline-flex;
-    padding-bottom: 40px;
+    padding: 0 55px 40px 55px;
     width: 50%;
 }
 
