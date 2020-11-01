@@ -13,7 +13,6 @@ body {
 
 
 .header_top {
-    height: 100vh;
     max-width: 1656px;
     margin: 0 auto;
 }
@@ -24,6 +23,8 @@ body {
 .nav {
     display: flex;
     justify-content: space-between;
+    /*margin-bottom: 20px;*/
+
 }
 
 /*Лого*/
@@ -56,7 +57,7 @@ body {
 .info-item {
     display: flex;
     padding: 10px;
-    width: 34%;
+    width: 35%;
     align-items: center;
     justify-content: flex-end;
 }
@@ -84,4 +85,51 @@ body {
     font-size: 16px;
     line-height: 22px;
     color: #FFFFFF;
+}
+
+/*Карусель*/
+.slider_container {
+    margin: 0 auto;
+    padding: 0;
+    /*max-width: 1656px;*/
+
+}
+
+.slider_item {
+    /*max-width: 1065px;*/
+    margin: 0 auto;
+}
+
+.slider {
+    position: relative;
+    padding: 0 80px;
+    margin: 0 auto;
+/*// поля между стрелкой и краем слайдера*/
+}
+
+.slider__img {
+
+    width: 1065px;
+    margin-top: -10px;
+}
+
+
+.slider .slick-arrow{
+    position: absolute;
+    top: 50%;
+    margin: -15px 0 0 0;
+    z-index: 0;
+    font-size: 0;
+    width: 33px;
+    height: 50px;
+}
+
+.slider .slick-arrow.slick-prev{
+    left: 0;
+    background: url('../img/slider/left_arrow.svg') 0 0 / 100% no-repeat;
+}
+
+.slider .slick-arrow.slick-next{
+    right: 0;
+    background: url('../img/slider/right_arrow.svg') 0 0 / 100% no-repeat;
 }
