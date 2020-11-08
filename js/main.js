@@ -1,6 +1,4 @@
-$(document).ready(function(){
-    $('.slider').slick({
-        speed: 900,
-        dots: true,
-});
+
+$('.slider').slick({
+    dots: true,
 });
